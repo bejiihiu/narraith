@@ -1,0 +1,1 @@
+Write a literary short story, around 900 words, about a locksmith who is called to open the flat of a woman who vanished three weeks ago. One location, no flashbacks, no explanation of what happened to her. I want it to end badly but quietly.

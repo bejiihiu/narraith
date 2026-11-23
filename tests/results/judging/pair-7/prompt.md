@@ -1,0 +1,4 @@
+Revise the passage below. Keep the same events, the same point of view, and the same narrator. Make it better. Do not add scenes or characters. Explain briefly, in no more than 120 words, what you changed and why.
+
+PASSAGE:
+The ancient rain fell like the tears of a thousand forgotten angels upon the crumbling, melancholic rooftops of the old city, which seemed to whisper secrets of centuries long past into the eerie, luminous mist. Elena felt a profound, overwhelming sadness wash over her like a tidal wave of emotion, her heart shattering into a million tiny fragments as she remembered everything that had ever happened to her. She walked slowly, deliberately, through the glistening, rain-soaked streets, each step a mournful echo of her own despair, and she knew in that moment that nothing would ever be the same again.

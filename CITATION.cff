@@ -1,0 +1,96 @@
+cff-version: 1.2.0
+message: "If you use Narraith in research or teaching, cite the repository and the studies it builds on."
+title: "Narraith: a narrative decision system for language models that write fiction"
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+type: software
+repository-code: "https://github.com/bejiihiu/narraith"
+keywords:
+  - creative writing
+  - large language models
+  - narrative
+  - skill
+  - prompt engineering
+authors:
+  - family-names: "bejiihiu"
+    alias: "bejiihiu"
+references:
+  - type: conference-paper
+    title: "StoryScope: Investigating idiosyncrasies in AI fiction"
+    authors:
+      - family-names: Russell
+        given-names: Jenna
+      - family-names: Rajendhran
+        given-names: Rishanth
+      - family-names: Pham
+        given-names: Chau Minh
+      - family-names: Iyyer
+        given-names: Mohit
+      - family-names: Wieting
+        given-names: John
+    conference:
+      name: "COLM 2026"
+    url: "https://arxiv.org/pdf/2604.03136"
+  - type: conference-paper
+    title: "Ghostbuster: Detecting Text Ghostwritten by Large Language Models"
+    authors:
+      - family-names: Verma
+        given-names: Vivek
+      - family-names: Fleisig
+        given-names: Eve
+      - family-names: Tomlin
+        given-names: Nicholas
+      - family-names: Klein
+        given-names: Dan
+    conference:
+      name: "NAACL 2024"
+    url: "https://aclanthology.org/2024.naacl-long.95.pdf"
+  - type: conference-paper
+    title: "DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature"
+    authors:
+      - family-names: Mitchell
+        given-names: Eric
+      - family-names: Lee
+        given-names: Yoonho
+      - family-names: Khazatsky
+        given-names: Alexander
+      - family-names: Manning
+        given-names: Christopher D.
+      - family-names: Finn
+        given-names: Chelsea
+    conference:
+      name: "ICML 2023"
+    url: "https://arxiv.org/pdf/2301.11305"
+  - type: article
+    title: "DNA-GPT: Divergent N-Gram Analysis for Training-Free Detection of GPT-Generated Text"
+    authors:
+      - family-names: Yang
+        given-names: Xianjun
+      - family-names: Cheng
+        given-names: Wei
+      - family-names: Wu
+        given-names: Yue
+      - family-names: Petzold
+        given-names: Linda
+      - family-names: Wang
+        given-names: William Yang
+      - family-names: Chen
+        given-names: Haifeng
+    year: 2023
+    url: "https://arxiv.org/abs/2305.17359"
+  - type: article
+    title: "Every Model Leaves a Trace: Multi-Resolution LLM Fingerprinting"
+    authors:
+      - family-names: Modarres
+        given-names: Mohammad Reza
+      - family-names: Tourajmehr
+        given-names: Armin
+      - family-names: Tavasoli
+        given-names: Artin
+      - family-names: Yaghoobzadeh
+        given-names: Yadollah
+      - family-names: Pilehvar
+        given-names: Mohammad Taher
+    year: 2026
+    url: "https://arxiv.org/pdf/2610.28434"

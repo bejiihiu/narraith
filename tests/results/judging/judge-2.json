@@ -1,0 +1,96 @@
+{
+  "judge": "judge-2",
+  "pairs": [
+    {
+      "pair": "pair-1",
+      "scores": {
+        "A": {"narrative_coherence": 4, "character": 4, "prose": 5, "emotional_credibility": 5, "originality": 5, "structural_integrity": 4},
+        "B": {"narrative_coherence": 4, "character": 4, "prose": 4, "emotional_credibility": 3, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": false},
+      "preference": "A",
+      "reason": "A keeps the horror inside one domestic detail and a professional's refusal to name it, while B's stronger central image arrives through an object the story never installs.",
+      "strength_A": "Emotional credibility is produced by evidence rather than stated: \"She never washed up\" converts a cup into a verdict, and Ray's flat \"Mind how you go\" withholds the report.",
+      "defect_A": "A few slack triplets do no work, the worst being \"cold and dry and old\" at the door, where one precise noun would have carried more.",
+      "strength_B": "The physical detail is exact and diagnostic: \"her breath go in and stay there\" does the work the paragraph never explains.",
+      "defect_B": "The closing image depends on an unestablished object: \"the bolt, the new bolt, going home\" is a cause supplied after the effect, since he drilled the housing out and only ever fitted a cylinder.",
+      "notes": "B runs 1101 words against 'around 900' and ends in a second location (the van outside), hence brief_ok false; craft scores unaffected."
+    },
+    {
+      "pair": "pair-2",
+      "scores": {
+        "A": {"narrative_coherence": 5, "character": 5, "prose": 5, "emotional_credibility": 5, "originality": 5, "structural_integrity": 3},
+        "B": {"narrative_coherence": 5, "character": 4, "prose": 4, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": false, "B": true},
+      "preference": "A",
+      "reason": "A's convergence runs through one repeated act, signing without looking, where B's runs through coincidence and echoed similes, which makes A the more disciplined chapter even though it badly under-serves its courtroom line.",
+      "strength_A": "The three lines are knotted by a single verb: \"взяла ручку и подписала, не читая\" pays off in the verdict's opening formula, and no explanation is offered.",
+      "defect_A": "The trial, which is a third of the brief and the emotional engine, is reduced to summary: \"На процессе Кирилл поднял руку\" is the whole of it, so the finale carries weight the chapter has not prepared.",
+      "strength_B": "Nina's self-deception is enacted, not stated: \"сдвинула их обратно, на котлету\" hides the uneaten food the same way she hides the case.",
+      "defect_B": "The convergence is engineered through repetition, not event: the \"маленький твёрдый квадрат, туго сложенный вчетверо\" appears three times, and the portrait from Olga's flat turning up in Grigory's studio is a coincidence the chapter never causes.",
+      "notes": "A is 910 words against 1400-1800 and B is 1387; A's shortfall is recorded here, not in the craft scores."
+    },
+    {
+      "pair": "pair-4",
+      "scores": {
+        "A": {"narrative_coherence": 5, "character": 4, "prose": 5, "emotional_credibility": 5, "originality": 5, "structural_integrity": 5},
+        "B": {"narrative_coherence": 5, "character": 4, "prose": 4, "emotional_credibility": 4, "originality": 3, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": false},
+      "preference": "A",
+      "reason": "A stays inside the brief's discipline and lets a flat-pack wardrobe and a fence carry eleven years of marriage, while B reaches the same ache but keeps stepping out of dialogue to explain the marriage to the reader.",
+      "strength_A": "The unsaid thing is said as an object: \"Put it in the sink when you get in\" is a kindness neither of them will name, and the four-pack on the seat finishes it.",
+      "defect_A": "One clause of narration does history the scene should have implied: \"the lager she used to have on a Friday\" reaches past the smallest possible action.",
+      "strength_B": "The wristband is handled with total restraint: \"Tape goes funny. Leaves a mark.\" is the closest either of them comes, and it is enough.",
+      "defect_B": "The narration keeps breaking the dialogue-only frame to supply backstory: \"eaten every morning for eleven years\" tells the reader what the scene had already shown.",
+      "notes": "Neither text uses love/hate/sorry/miss; B is under 600 words but its narration exceeds 'the smallest possible amount of action', so brief_ok is false."
+    },
+    {
+      "pair": "pair-6",
+      "scores": {
+        "A": {"narrative_coherence": 5, "character": 5, "prose": 4, "emotional_credibility": 4, "originality": 5, "structural_integrity": 4},
+        "B": {"narrative_coherence": 5, "character": 4, "prose": 4, "emotional_credibility": 4, "originality": 5, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "A",
+      "reason": "A makes the clock a live argument between two people and closes on a genuine reversal, while B's finer single invention sits in a chapter whose arithmetic and final image are both less secure.",
+      "strength_A": "Brandt's self-defence is the best exchange in the set: \"That's not loyalty. That's bookkeeping.\" answers her accusation and reveals him in five words.",
+      "defect_A": "The last line steps outside the scene to announce its own theme: \"Eleven minutes and a woman's whole life\" is the chapter summarising itself.",
+      "strength_B": "The ledger's private column is a real discovery, concrete and legible: \"Every pencil figure sat eleven minutes before\" the times copied off the wall.",
+      "defect_B": "One word does two jobs badly, since \"You'd come off the bar at three\" reads as a pub while \"the bar\" two lines later is the sandbar.",
+      "notes": "Both keep the bible's facts and add no named characters; A is 1593 words against a 1600 ceiling."
+    },
+    {
+      "pair": "pair-7",
+      "scores": {
+        "A": {"narrative_coherence": 4, "character": 3, "prose": 4, "emotional_credibility": 4, "originality": 3, "structural_integrity": 4},
+        "B": {"narrative_coherence": 4, "character": 3, "prose": 5, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "B",
+      "reason": "B rewrites the ending into something concrete and controls every sentence, while A leaves the draft's flattest sentence standing and then claims in its note to have fixed it.",
+      "strength_A": "One clause turns stated grief into behaviour: \"she had stopped noticing, except when she breathed\" is the best sentence in either revision.",
+      "defect_A": "The original's abstract close survives almost intact: \"not as a thought but as a fact\" is still the narration telling the reader what she knows.",
+      "strength_B": "The replacement ending is concrete and belongs to this street: \"She had stood here before, in other weather.\" earns the decision that follows it.",
+      "defect_B": "The brief asks for the same events, and the new decision substitutes a different knowledge for the original's: \"would not come back down it\" is a change of event, however well written.",
+      "notes": "Both explanations are under 120 words (94 and 113). A's note describes a fix the text did not make, which affected the preference."
+    },
+    {
+      "pair": "pair-9",
+      "scores": {
+        "A": {"narrative_coherence": 5, "character": 5, "prose": 5, "emotional_credibility": 5, "originality": 4, "structural_integrity": 5},
+        "B": {"narrative_coherence": 4, "character": 4, "prose": 5, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "A",
+      "reason": "A dramatizes the humiliation and then refuses both the compliment and the catharsis, while B's sharper texture is carried by a reported humiliation and a town inventory.",
+      "strength_A": "The teacher's kindness is made the cruellest fact: \"Зла она ему не желала\" costs him more than malice would, and the last line refuses to resolve it.",
+      "defect_A": "The funeral is peopled with types rather than persons, e.g. \"мужики с лопатами стояли в стороне\", so the present-day frame is thinner than the flashback it holds.",
+      "strength_B": "Post-Soviet decay is rendered as fact without nostalgia: \"все лица сбиты, остались белые пятна\" on the square's panno, and the smell of the school that does not move him.",
+      "defect_B": "One beat slips into the nostalgia the brief forbids: \"Котлета была сухая, как в детстве\" makes the canteen food a childhood echo rather than a present fact.",
+      "notes": "Both are within 1000-1300 and neither offers catharsis or forgiveness."
+    }
+  ],
+  "notes": "Axis mapping used, per the task's six axes rather than the rubric's twelve: narrative_coherence covers rubric 1 plus causal consistency (4) and continuity (12) where they bear on the story's spine; character merges depth (2) and agency (3); prose covers 7 with dialogue (6) and style consistency (11) folded in; emotional_credibility is 8; originality is 9; structural_integrity is 10 with temporal handling (5) folded in where relevant. Scores were assigned text-by-text before any preference. Word counts exclude the revision notes in pair-7 and count only letter/number tokens (Russian em-dashes inflate whitespace counts by roughly 8-9% in the Russian texts). Two things the analyst should know. First, five of six preferences went to A, and A-texts in this set are systematically sparser; I re-tested each pair specifically for a plainness bias against dense prose and kept the preference only where the denser text had a defect on the page (pair-1: an object never installed; pair-2: coincidental convergence; pair-4: narration outside the dialogue-only frame; pair-6: a word collision and an unresolved closing image; pair-9: a reported humiliation). Pair-7 is the one where the denser text won, on the strength of its rewritten ending. Second, brief compliance is recorded but unscored, and it cuts both ways: pair-2's A is 910 words against 1400-1800 and pair-1's B is 1101 against 'around 900', so neither preferred text in those pairs is the compliant one on length. Scores on pair-1's B and pair-9's B sit in a narrow band; that is a reading of uniformly competent texts with no axis of excellence, not an averaging of auras."
+}

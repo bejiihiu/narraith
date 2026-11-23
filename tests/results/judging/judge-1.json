@@ -1,0 +1,90 @@
+{
+  "judge": "judge-1",
+  "pairs": [
+    {
+      "pair": "pair-1",
+      "scores": {
+        "A": {"narrative_coherence": 4, "character": 4, "prose": 5, "emotional_credibility": 5, "originality": 4, "structural_integrity": 4},
+        "B": {"narrative_coherence": 4, "character": 4, "prose": 5, "emotional_credibility": 4, "originality": 3, "structural_integrity": 5}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "A",
+      "reason": "A keeps the whole ending inside the room it opened — the washed cup and \"Mind how you go\" carry the badness without naming it — whereas B turns the same quiet brief into a conspiracy hook its short frame cannot pay.",
+      "strength_A": "Prose and emotional credibility are carried by objects rather than adjectives: \"the tea gone to a grey skin\" does the work a paragraph of grief would have done.",
+      "defect_A": "The motive behind his refusal is stated rather than left to the scene — \"Ray had enough of that.\" — one clause of explanation where the ritual had been enough.",
+      "strength_B": "Structural integrity is excellent: the bolt thrown at the start returns at the close, \"the sound of it was exactly the same\", and the ledger's \"opened\" lands the change.",
+      "defect_B": "\"You won't say about the bolt.\" imports a conspiracy the story neither explains nor needs, converting a quietly bad ending into an unresolved thriller beat."
+    },
+    {
+      "pair": "pair-2",
+      "scores": {
+        "A": {"narrative_coherence": 3, "character": 4, "prose": 5, "emotional_credibility": 4, "originality": 4, "structural_integrity": 3},
+        "B": {"narrative_coherence": 4, "character": 4, "prose": 4, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": false, "B": true},
+      "preference": "B",
+      "reason": "Both are well made, but B develops all three lines to a real weight and lets one object physically join them, while A stays a compressed sketch whose trial and letter meet only in the final image.",
+      "strength_A": "The best sentence in the pair is A's: \"Дневник Вера закрыла и положила на кальку\" makes the daughter's lie cover the stranger's letter with no commentary at all.",
+      "defect_A": "The letter thread stops at its own reveal — \"А письма она не просила.\" — and never touches the trial, so the three lines run parallel to the last page.",
+      "strength_B": "The grief is enacted in a posture, not announced: \"она держала шапку на коленях, как сумку\" tells the reader everything about the sister's rehearsed calm.",
+      "defect_B": "The narrator explains what the scene already shows — \"не потому, что прятал, а потому, что мёрзли\" — against the brief's ban on authorial explanation."
+    },
+    {
+      "pair": "pair-4",
+      "scores": {
+        "A": {"narrative_coherence": 4, "character": 4, "prose": 5, "emotional_credibility": 5, "originality": 5, "structural_integrity": 4},
+        "B": {"narrative_coherence": 3, "character": 4, "prose": 4, "emotional_credibility": 4, "originality": 3, "structural_integrity": 3}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "A",
+      "reason": "A never leaves the car park and lets a hedge and an unclaimed fence do all the saying, while B smuggles in a narrator's backstory and a dying-ex-wife twist that 600 words of dialogue-and-action cannot support.",
+      "strength_A": "Emotional credibility is exact: the repetition of \"It was a good hedge,\" she said again is disproportionate in the way that reveals her, and the reader is never told what it means.",
+      "defect_A": "The box-and-strap logistics take nearly a third of the piece before any pressure exists — \"she used to have on a Friday\" is doing backstory work the action should carry.",
+      "strength_B": "The hospital band is a strong, silent escalation: \"white plastic on her wrist, a printed band\" raises the stakes without a single line of exposition from either speaker.",
+      "defect_B": "The narration keeps explaining the subtext it built — \"which he'd said tasted like a hedge\" — and the wristband is the modal reveal for this premise rather than a choice of its own."
+    },
+    {
+      "pair": "pair-6",
+      "scores": {
+        "A": {"narrative_coherence": 5, "character": 5, "prose": 5, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4},
+        "B": {"narrative_coherence": 4, "character": 4, "prose": 4, "emotional_credibility": 4, "originality": 3, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "A",
+      "reason": "A turns the chapter-two hand-off into one continuous argument about a clock, a ledger and a name, while B's eleven-year backdating strains the bible and its own rule that the book holds only refusals.",
+      "strength_A": "Character and coherence are the same achievement here: the ledger stops being a grudge and becomes \"a kind of memory, which was worse\", and every later beat pays off that shift.",
+      "defect_A": "The closing line overstates what the scene earned — \"Eleven minutes and a woman's whole life in it\" — turning a good exit into a caption.",
+      "strength_B": "The blank column is handled with real tact: \"it had the whole of her in it\" makes a thumbnail of white space carry the accusation.",
+      "defect_B": "The ninth of October gets a full entry — \"The ninth had an entry, all right.\" — though the bible and B's own description say the book holds only ships he refused."
+    },
+    {
+      "pair": "pair-7",
+      "scores": {
+        "A": {"narrative_coherence": 4, "character": 3, "prose": 4, "emotional_credibility": 3, "originality": 3, "structural_integrity": 3},
+        "B": {"narrative_coherence": 4, "character": 3, "prose": 4, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "B",
+      "reason": "B fixes the passage's actual failure — the abstract closing certainty — by replacing it with a concrete fact, whereas A dresses the same cliché in a more careful sentence and calls the revision done.",
+      "strength_A": "The middle is genuinely rescued by one observed detail: \"crying long enough that she had stopped noticing\" is physical, specific, and impossible to move into another story.",
+      "defect_A": "The revision leaves the worst sentence standing — \"nothing would ever be the same again\" — so the passage's real defect survives under a better-lit frame.",
+      "strength_B": "The close is the best move in the pair: \"She had stood here before, in other weather.\" converts a declaration into a fact the character knows.",
+      "defect_B": "It still reaches for abstraction in the place it claims to have removed it — \"the shape of the years\" — which its own note says it cut."
+    },
+    {
+      "pair": "pair-9",
+      "scores": {
+        "A": {"narrative_coherence": 5, "character": 5, "prose": 5, "emotional_credibility": 4, "originality": 5, "structural_integrity": 4},
+        "B": {"narrative_coherence": 4, "character": 4, "prose": 5, "emotional_credibility": 4, "originality": 4, "structural_integrity": 4}
+      },
+      "brief_ok": {"A": true, "B": true},
+      "preference": "A",
+      "reason": "A refuses the speech, refuses the daughter's consolation, and ends on the sentence he cannot forget, while B hands its protagonist the notebook back and so grants a small restitution the brief asked it to withhold.",
+      "strength_A": "Originality and character land in the same refusal: the teacher wished him no harm — \"это было хуже всего\" — and that single judgement declines both catharsis and blame.",
+      "defect_A": "The wake's minor figures exist only to cue his silence — \"Кто-то кивнул. Виктор Семёнович сказал: «Верно».\" — so the room feels staged around him.",
+      "strength_B": "The memory is reduced to its true residue: \"Он помнил не Ленку, а звук.\" is precise about what humiliation actually leaves behind.",
+      "defect_B": "The flat is inventoried as a list of period properties — \"Ковёр на стене, сервант, в серванте хрусталь\" — so the setting drifts toward costume rather than evidence."
+    }
+  ],
+  "notes": "Word counts checked mechanically. pair-2 A is 992 words against a stated 1400-1800, so brief_ok is false there; that shortfall also shows as under-developed lines, which is the reason the craft scores dip rather than the count itself. pair-1 B is 1103 words against 'around 900' - 23% over, counted as within tolerance for a soft target but noted. pair-6 A is 1601 including its '## 3' heading (1599 body), so counted as compliant. pair-7 revision notes are 94 and 113 words, both inside the 120 limit. pair-4: neither text contains love/hate/sorry/miss; B's narration goes beyond 'the smallest possible amount of action' but that is recorded as a craft defect, not a failed prohibition. Two preferences were close calls: pair-1 (A over B despite B's superior structural closure, because B's conspiracy hook is unpaid) and pair-2 (B over A despite A having the better sentence-level prose, because A's three lines never converge in action). Scores are independent per text; no pair was scored comparatively first."
+}

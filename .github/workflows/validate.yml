@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate skill structure and links
+        run: python scripts/validate_skill.py .
+      - name: Check scripts compile
+        run: python -m py_compile scripts/*.py
+      - name: Smoke-test metrics on the bundled examples
+        run: |
+          python scripts/story_metrics.py examples/01-scene-weak-vs-strong.md > /dev/null
+          python scripts/story_metrics.py --compare examples/01-scene-weak-vs-strong.md examples/01-scene-weak-vs-strong.md > /dev/null

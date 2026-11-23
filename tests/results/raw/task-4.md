@@ -1,0 +1,1 @@
+Two people who were married for eleven years meet in a supermarket car park two years after the divorce. Neither will say the real thing. Write only the dialogue and the smallest possible amount of action, under 600 words. Do not use the words love, hate, sorry, or miss.

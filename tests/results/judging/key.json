@@ -1,0 +1,26 @@
+{
+  "pair-1": {
+    "A": "with",
+    "B": "without"
+  },
+  "pair-2": {
+    "A": "with",
+    "B": "without"
+  },
+  "pair-4": {
+    "A": "with",
+    "B": "without"
+  },
+  "pair-6": {
+    "B": "with",
+    "A": "without"
+  },
+  "pair-7": {
+    "B": "with",
+    "A": "without"
+  },
+  "pair-9": {
+    "A": "with",
+    "B": "without"
+  }
+}

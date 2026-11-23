@@ -1,0 +1,76 @@
+{
+  "skill_name": "narraith",
+  "notes": "Eval prompts are deliberately ordinary requests, not prompts written to flatter the skill. Nothing here names Narraith or asks for a methodology. See tests/protocol.md for the run and grading procedure.",
+  "evals": [
+    {
+      "id": 1,
+      "name": "simple-short-story-en",
+      "prompt": "Write a literary short story, around 900 words, about a locksmith who is called to open the flat of a woman who vanished three weeks ago. One location, no flashbacks, no explanation of what happened to her. I want it to end badly but quietly.",
+      "expected_output": "A single-location story in which the locksmith's professional competence is put in tension with what he finds. The story withholds the explanation of the disappearance, ends on a quiet irreversible note, and does not state its theme.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "multithread-chapter-ru",
+      "prompt": "Напиши первую главу романа, 1400–1800 слов. Три линии: (1) женщина-судья ведёт процесс, в котором обвиняемый — сын её школьной подруги; (2) её муж, реставратор, находит под слоем краски в чужой картине письмо; (3) их дочь-подросток перестала есть и врёт про причину. Главу нужно закончить так, чтобы читатель понял: эти три линии — об одном и том же, но никто из героев этого ещё не знает. Без объяснений от автора.",
+      "expected_output": "Three strands that are formally separate but rhyme thematically and causally; each strand has a concrete image that recurs across the others; no narrator commentary explaining the connection; at least one irreversible change inside the chapter.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "four-hander-scene-en",
+      "prompt": "Write a 700-word scene with four people in a car at night: a mother, her adult son, his fiancée, and the mother's neighbour. Nobody says what they actually want. The scene must end with the fiancée making a decision that the reader understands but the other three do not. Contemporary, British, no violence.",
+      "expected_output": "Four distinguishable voices, an oblique agenda under the surface talk, power shifting during the scene, and a final decision by the fiancée that is legible to the reader through subtext rather than statement.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "dialogue-subtext-en",
+      "prompt": "Two people who were married for eleven years meet in a supermarket car park two years after the divorce. Neither will say the real thing. Write only the dialogue and the smallest possible amount of action, under 600 words. Do not use the words love, hate, sorry, or miss.",
+      "expected_output": "Dialogue that carries the unsaid through deflection, logistics, and small lexical choices; distinct idiolects; escalation that is not argumentative; an ending that leaves a residue rather than a resolution.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "nonlinear-architecture-en",
+      "prompt": "Write a 1200-word story that opens with the funeral of a man who is still alive in the second section. Three time layers, no chapter headings, no dates. The reader should be able to reconstruct the order without being told it. Genre: literary, contemporary.",
+      "expected_output": "A reconstructable timeline built from concrete anchors rather than labels; each time layer changes the meaning of the previous one; the final section reframes the opening rather than merely explaining it.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "name": "continuation-continuity",
+      "prompt": "Continue this novel at chapter 3. Keep every established fact. Do not introduce new named characters.\n\nBIBLE:\n- Setting: a cargo port town, late autumn, year unspecified, roughly 1970s technology.\n- Maren Voss, 41, harbour pilot. Left hand damaged; cannot grip a rail in cold. Superstitious about gulls. Divorced, no children.\n- Ilya Brandt, 58, dockmaster. Keeps a ledger of every ship he has refused. Has a dog named Tessa, blind in one eye.\n- Maren's mother, Ada, 79, lives inland, writes letters that arrive in batches of four.\n- Established: the freighter Sivash was refused entry on 3 October. Maren piloted it in anyway on 9 October. Brandt knows. Nobody else does.\n- Established: the harbour office clock runs eleven minutes fast and nobody has fixed it.\n- Open threads: who paid Maren; what was in hold 4; why Ada's last letter was typewritten.\n\nCHAPTER 2 ENDS WITH: Brandt puts the ledger on the table between them and says, 'Sign it or don't. But the clock is wrong because you asked me to make it wrong.'\n\nWrite 1200-1600 words.",
+      "expected_output": "Chapter 3 that honours every bible fact (damaged left hand, blind-sided dog, fast clock, ledger, Sivash dates), advances at least two open threads without resolving them, does not add named characters, and treats the clock revelation as a change in the relationship rather than a twist to be explained.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "name": "rewrite-purple-prose",
+      "prompt": "Revise the passage below. Keep the same events, the same point of view, and the same narrator. Make it better. Do not add scenes or characters. Explain briefly, in no more than 120 words, what you changed and why.\n\nPASSAGE:\nThe ancient rain fell like the tears of a thousand forgotten angels upon the crumbling, melancholic rooftops of the old city, which seemed to whisper secrets of centuries long past into the eerie, luminous mist. Elena felt a profound, overwhelming sadness wash over her like a tidal wave of emotion, her heart shattering into a million tiny fragments as she remembered everything that had ever happened to her. She walked slowly, deliberately, through the glistening, rain-soaked streets, each step a mournful echo of her own despair, and she knew in that moment that nothing would ever be the same again.",
+      "expected_output": "A revision that removes generic abstraction and dead simile while preserving the narrator's sensibility, keeps the same beat, and explains the edits in terms of function rather than word bans.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "name": "horror-dread-no-gore",
+      "prompt": "Write a 900-word horror story set in a municipal indoor swimming pool after closing time. No gore, no monster revealed, no jump scares. The horror should come from something being wrong with the rules of the place. Two characters maximum. End without explaining it.",
+      "expected_output": "Dread produced by violated spatial/behavioural rules and precise sensory detail, escalating through small wrongnesses, with an ending that withholds the explanation and leaves the reader with a specific image.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "name": "russian-return-story",
+      "prompt": "Напиши рассказ на русском, 1000–1300 слов: мужчина сорока пяти лет возвращается в город, где вырос, на похороны учительницы, которая когда-то его унизила. Никакого катарсиса и никакого прощения. Нужен конкретный советский/постсоветский быт, но без ностальгии и без клюквы.",
+      "expected_output": "Russian-language prose with idiomatic syntax rather than translated-English rhythm; concrete material detail of the setting; moral complication that refuses both revenge and reconciliation; the dead teacher remains a person, not a symbol.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "name": "unreliable-narrator-en",
+      "prompt": "Write an 1100-word story narrated by a man who is describing the last weekend of his marriage. He is lying to the reader, but only in ways the reader can catch from the text itself. Nothing supernatural. The reader should finish the story knowing something the narrator does not admit.",
+      "expected_output": "A narrator whose account contains recoverable contradictions, omissions, and self-serving emphasis; the truth is inferable from concrete detail rather than announced; the final paragraph does not confess.",
+      "files": []
+    }
+  ]
+}
