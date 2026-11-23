@@ -21,3 +21,4 @@ research/
 
 # local
 *.log
+dist/
