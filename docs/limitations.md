@@ -76,6 +76,10 @@ The rubric in `tests/rubric.md` is a judgement instrument, not a measurement. It
 the skill claims to improve, which makes it useful for the skill's own evaluation and unsuitable as a
 general theory of literary quality.
 
+A machine-text detector's verdict is not a measurement of quality either. `references/detector-feedback.md`
+explains how to use a report as diagnostic feedback and why passing one is not a goal. No detector was used
+to evaluate any version of this skill, and no claim here rests on one.
+
 ## 5. Failure modes of the skill itself
 
 These are observed risks of instruction-heavy craft systems, and the mitigations are in the text:

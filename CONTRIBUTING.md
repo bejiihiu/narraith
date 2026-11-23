@@ -32,6 +32,8 @@ Every non-obvious claim carries one of three markers:
   `references/research/`.
 - `[theory]` — narratology or craft consensus, not an experimental result.
 - `[hypothesis]` — our own rule, not established. Must come with a way it could fail.
+- `[report: <vendor>, <date>]` — a third-party measurement of one specific text (a detector verdict, an
+  editor's report, a contest score). Not a research finding, and never generalisable from one text.
 
 A file may declare a default marker in its preamble ("everything here is `[theory]` except…"), in which
 case individual claims carry a marker only where they deviate from the default. A claim that has neither

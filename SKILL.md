@@ -198,6 +198,9 @@ unresolved moral material, its narrator's licence to comment, and its paragraph 
   arbitrary mess. The correction is a *justified* choice, not the opposite of a statistic.
 - **Do not apply every engine.** Fifteen engines exist; a story needs three or four. A text that
   satisfies every checklist is a text with no centre.
+- **Do not optimise for a detector.** If a classifier flags the text, diagnose the statistics using the
+  procedure in `references/detector-feedback.md`, fix only what is also a craft defect, and never promise
+  a pass. A text written against one classifier is a text with a new tell for the next one.
 - **Do not claim measurement.** This skill reasons about texts. It does not compute probabilities,
   detect authorship, or reduce a text to a single quality score. The scripts in `scripts/` compute
   surface proxies
@@ -240,6 +243,7 @@ Full bibliographic records, methodology, results, limitations and the Research â
 | a voice match, or non-linear / multi-thread structure | `workflows/05-voice-and-complex-structure.md` | `references/temporal-complexity.md` |
 | "why doesn't this work?" | `references/literary-critique.md` | `references/quality-levels.md` |
 | "does this read as AI?" | `references/ai-narrative-signature.md` | the audit procedure there |
+| a detector flagged this text | `references/detector-feedback.md` | `scripts/story_metrics.py` |
 | a genre question ("is this a thriller?") | `references/genre-and-form.md` | the workflow for its length |
 | Russian prose | `references/russian-prose.md` | `references/multilingual-notes.md` |
 
@@ -252,6 +256,7 @@ references/
   research/01..05                 per-paper dossiers with methodology and limits
   narrative-theory.md             narratology as decision vocabulary
   ai-narrative-signature.md       evidence-based catalogue of model defaults
+  detector-feedback.md            using a detector report without obeying it
   quality-levels.md               L1-L7 in depth; misattribution table
   story-architecture.md           premise, spine, subplots, acts, endings
   genre-and-form.md               length forms and genre contracts

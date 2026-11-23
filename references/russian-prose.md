@@ -75,6 +75,12 @@ That chain is clear and slightly plodding, and Russian usually breaks it by chan
 
 **A second paragraph-level instrument: the paragraph's last word.** Russian paragraphs often end on a nominal phrase that stands alone as a fragment, because the language tolerates verbless sentences far more readily than English. *И тишина.* / *И ничего.* A one- or two-word paragraph is a legitimate Russian closing beat, and it is used more often — and more quietly — than the English equivalent, which would need a beat of narration around it.
 
+**The subject-initial run.** The commonest rhythmic failure in Russian prose written by a model, or by a translator, is not a wrong word but a repeated position: sentence after sentence, and especially paragraph after paragraph, beginning with the subject, usually a pronoun. *Он открыл дверь. Он приложил вывод. Он нашёл issue.* The verb ending already names the person; the pronoun adds nothing but a metronome. Count the paragraphs that begin with *он / она / они*: if more than one in five does, the prose has a pulse you did not choose.
+
+Repair it without changing what the paragraph says: front the adverbial (*В четверг он поставил spark*), begin on the object (*Тикет он закрыл*), use a dash construction (*Бэкап — в час ночи*), or let a verbless sentence carry the beat. Two caveats. A pronoun in the first sentence of a paragraph is normal — it re-establishes the subject after a break. And deliberate anaphora (*Он ждал. Он знал. Он не спал.*) is a device, not a defect. The test is whether the repetition does work; if you cannot say what work in one line, it is a tic.
+
+A page of short declaratives with no periodic sentence anywhere is the other half of the same problem: the prose reads as a report, and in Russian specifically as a translated one. The two checks belong together — vary the opening *and* build one long sentence where it carries a complex thought.
+
 ## Aspect as pacing
 
 Aspect is usually taught as a grammar problem to be got right. It is better understood as the main instrument of **duration** in Russian, and it does at the verb what sentence length does in English: it tells the reader whether to dwell or to move.

@@ -38,6 +38,8 @@
 
 - [ ] **Continuity and language.** Run `checklists/continuity-sweep.md`, then the prose checklist for the language: `checklists/russian-prose.md` or `checklists/english-prose.md`. *If it fails:* a contradiction or a translationese pattern has survived to here. Fix contradictions before line work — a polished sentence does not survive a broken fact.
 
+- [ ] **Rhythmic uniformity, if a detector or an editor raised it.** Check the share of paragraphs opening on a pronoun, the one-sentence paragraphs, and whether one periodic sentence exists per page or two. *If it fails:* vary the openings and build one long sentence where it carries a complex thought. Do not synonym-churn; see `references/detector-feedback.md`.
+
 ## If you have ten minutes
 
 Three checks catch the defects that make the others moot: the question survives, the last line of every scene, the modal test on the opening. Run those and stop. A fourteenth-pass polish of a scene that fails check 8 is wasted work.

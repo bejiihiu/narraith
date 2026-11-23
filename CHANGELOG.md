@@ -3,6 +3,30 @@
 All notable changes to this skill. Format loosely follows Keep a Changelog; versions follow semver
 where the "API" is the instruction surface a model reads.
 
+## [1.1.0] — 2026-11-24
+
+### Added
+
+- `references/detector-feedback.md` — how to use a machine-text detector's report without obeying it:
+  the case file, the four statistical suspects, the repair filter, and the boundary between a flagged
+  text and a bad one.
+- `scripts/story_metrics.py` — pronoun-initial share, paragraphs opening on a pronoun, one-sentence
+  paragraph share, paragraph-length spread, and the most common sentence openers.
+- `references/russian-prose.md` — "the subject-initial run": repeated paragraph openings as the
+  commonest rhythmic tell in Russian model prose, with repairs that do not change the content.
+- `[report: <vendor>, <date>]` as a fourth claim marker, for third-party measurements of one text.
+
+### Changed
+
+- `SKILL.md` — routing row for a detector verdict, and a prohibition on optimising for a classifier.
+
+### Evidence
+
+A Russian story written under 1.0.0 was flagged by Textovod as machine-generated: 57% explicit signs,
+43% suspicious. Its metrics showed the cause the skill's own Russian checks already name — no sentence
+over 35 words, 22% of paragraphs opening on a pronoun. Recorded in
+`tests/results/detector-2026-11-23.md`.
+
 ## [1.0.0] — 2026-11-23
 
 Initial release.

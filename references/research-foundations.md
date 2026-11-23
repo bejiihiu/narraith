@@ -4,7 +4,7 @@
 > Read when: before quoting any figure in another module, before claiming the skill is evidence-based, or when a rule's justification feels stronger than it should.
 > Links: `references/research/01-storyscope.md` … `05-fingerprinting.md` — the dossiers this file summarises; `docs/research-map.md` — the maintainer audit of every claim and figure; `docs/limitations.md` — the hypotheses that would falsify the design.
 
-Tags: `[data: <paper>]` is measured in that paper; `[theory]` is craft or narratology; `[hypothesis]` is our engineering inference. A number in this file without a dossier section reference is a bug.
+Tags: `[data: <paper>]` is measured in that paper; `[theory]` is craft or narratology; `[hypothesis]` is our engineering inference; `[report: vendor, date]` is a third-party measurement of one text. A number in this file without a dossier section reference is a bug.
 
 ## Contents
 
@@ -208,11 +208,12 @@ Read the right-hand column as the skill's actual bet, and the left as what would
 
 ## How to cite inside the skill
 
-Three markers, no exceptions:
+Four markers, no exceptions:
 
 1. `[data: <Paper>]` — a measured result. Follow it with the figure and the condition that produced it: corpus, task, denominator. `[data: StoryScope]` 93.2% is binary human-vs-AI macro-F1 on narrative features only.
 2. `[theory]` — craft or narratology. Most of the skill is this, including its most load-bearing rules. A claim is not weaker for being theory; it is weaker for pretending otherwise.
 3. `[hypothesis]` — our inference, with a test that could kill it. `docs/limitations.md` holds the ones the design depends on.
+4. `[report: <vendor>, <date>]` — a third-party measurement of one text: a detector verdict, an editor's report, a contest score. It is evidence about that text, not about writing. `references/detector-feedback.md` uses it.
 
 Rules of use:
 

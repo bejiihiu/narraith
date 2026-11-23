@@ -15,6 +15,12 @@ The emotional-channel split (labelled vs somatic vs neutral) follows the
 distinction studied in StoryScope: models tend to render emotion through the
 body and withhold direct labels. Both directions are legitimate; the ratio is
 only interesting as a tendency.
+
+The opener metrics — pronoun-initial sentences, paragraphs opening on a pronoun,
+one-sentence paragraphs, paragraph-length spread — were added after a detector
+report on a sparse Russian story. They measure the kind of rhythmic uniformity
+that makes well-made prose statistically typical of machine output. See
+references/detector-feedback.md.
 """
 
 from __future__ import annotations
@@ -82,6 +88,28 @@ class Metrics:
     connective_per_1k: float
     repeated_4grams: int
     top_repeated_4grams: list[tuple[str, int]]
+    pronoun_initial_share: float
+    paragraph_initial_pronoun_share: float
+    one_sentence_paragraph_share: float
+    paragraph_mean_words: float
+    paragraph_stdev_words: float
+    top_openers: list[tuple[str, int]]
+
+
+PRONOUNS = {
+    "en": {"he", "she", "they", "it", "i", "we", "you"},
+    "ru": {"он", "она", "они", "оно", "я", "мы", "ты", "вы"},
+}
+
+
+def strip_lead(token: str) -> str:
+    return token.strip("—–-«»\"'(),.:;!?…").lower()
+
+
+def opener(sentence: str) -> str:
+    words = sentence.split()
+    return strip_lead(words[0]) if words else ""
+
 
 
 def detect_lang(text: str) -> str:
@@ -121,6 +149,17 @@ def analyse(path: Path) -> Metrics:
     dialogue_chars = sum(len(m.group(0)) for m in DIALOGUE.finditer(body))
     grams = ngrams(tokens, 4)
 
+    openers = [opener(s) for s in sents]
+    pron = PRONOUNS[lang]
+    pronoun_initial = sum(1 for o in openers if o in pron) / max(len(openers), 1)
+    para_openers = [opener(p.splitlines()[0]) for p in paras]
+    para_pron = sum(1 for o in para_openers if o in pron) / max(len(para_openers), 1)
+    one_sent_paras = sum(
+        1 for p in paras if len([s for s in SENT_SPLIT.split(p) if WORD.findall(s)]) <= 1
+    )
+    para_words = [len(WORD.findall(p)) for p in paras] or [0]
+    top_openers = [(w, c) for w, c in Counter(openers).most_common(6) if w]
+
     return Metrics(
         file=str(path),
         words=len(tokens),
@@ -138,6 +177,12 @@ def analyse(path: Path) -> Metrics:
         connective_per_1k=round(1000 * connectives / total, 2),
         repeated_4grams=sum(1 for _, c in grams.items() if c > 1),
         top_repeated_4grams=[(" ".join(g), c) for g, c in grams.most_common(5) if c > 1],
+        pronoun_initial_share=round(pronoun_initial, 3),
+        paragraph_initial_pronoun_share=round(para_pron, 3),
+        one_sentence_paragraph_share=round(one_sent_paras / max(len(paras), 1), 3),
+        paragraph_mean_words=round(statistics.mean(para_words), 1),
+        paragraph_stdev_words=round(statistics.pstdev(para_words), 1),
+        top_openers=top_openers,
     )
 
 
@@ -150,6 +195,9 @@ def render(m: Metrics) -> str:
         f"  MATTR-50 {m.mattr}   dialogue share {m.dialogue_ratio}\n"
         f"  emotion labels {m.emotion_label_per_1k}/1k   somatic {m.somatic_per_1k}/1k\n"
         f"  connectives {m.connective_per_1k}/1k   repeated 4-grams {m.repeated_4grams}\n"
+        f"  pronoun-initial {m.pronoun_initial_share:.1%}   paragraphs opening on a pronoun {m.paragraph_initial_pronoun_share:.1%}\n"
+        f"  one-sentence paragraphs {m.one_sentence_paragraph_share:.1%}   paragraph words {m.paragraph_mean_words} (sd {m.paragraph_stdev_words})\n"
+        f"  top openers {m.top_openers}\n"
     )
 
 
@@ -164,6 +212,9 @@ def delta(before: Metrics, after: Metrics) -> str:
         "somatic_per_1k",
         "connective_per_1k",
         "repeated_4grams",
+        "pronoun_initial_share",
+        "paragraph_initial_pronoun_share",
+        "one_sentence_paragraph_share",
     ]
     rows = []
     for f in fields:
@@ -173,6 +224,8 @@ def delta(before: Metrics, after: Metrics) -> str:
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("files", nargs="+")
     ap.add_argument("--json", action="store_true")
